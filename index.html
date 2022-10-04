@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Home</title>
+  <!-- Favicons -->
+  <link href="" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- font-faimly -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+
+  <!--bootstrap font awasome 4.7 version-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <!-- ========================= Header ============================== -->
+
+  <header id="header" class="fixed-top">
+    <div class="container-fluid d-flex align-items-center">
+      <a href="index.html" class="logo mr-auto"><img src="assets/img/logo-red.svg" width="100%" alt=""
+          class="img-fluid"></a>
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li class="drop-down"><a href="about.html"> About Us</a>
+            <ul>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="faq.html">Faq's</a></li>
+            </ul>
+          </li>
+          </li>
+          <li><a href="property.html">Property</a></li>
+          <li><a href="agent.html">Our Agents</a></li>
+          <li><a href="account.html">Account</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+
+        </ul>
+      </nav><!-- .nav-menu -->
+
+      <a href="submit-property.html" class="get-started-btn">Submit property <i class="fa fa-long-arrow-right"
+          aria-hidden="true"></i></a>
+
+    </div>
+  </header><!-- End Header -->
+
+
+
+  <!-- Slideshow container -->
+  <div class="hero_section">
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active firstclass">
+          <img class="d-block w-100" src="assets/img/s3.jpg" alt="First slide">
+          <div class="carousel-caption ">
+            <h1>Property Design <span> Real Estate </span></h1>
+            <p>We are recognized for exceeding client expectations and delivering great results through dedication, ease
+              of process, and extraordinary services to our worldwide clients.</p>
+            <div class="button-section mb-5">
+              <a href="submit-property.html"> <button type="button" class="btn btn-success">Get Started</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item firstclass">
+          <img class="d-block w-100" src="assets/img/s2.jpg" alt="Second slide">
+          <div class="carousel-caption">
+            <h1>Find Your Dream |<span> House </span></h1>
+            <p>We are recognized for exceeding client expectations and delivering great results through dedication, ease
+              of process, and extraordinary services to our worldwide clients.</p>
+            <div class="button-section mb-5">
+              <a href="submit-property.html"> <button type="button" class="btn btn-success">Get Started</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item firstclass">
+          <img class="d-block w-100" src="assets/img/s1.jpg" alt="Third slide">
+          <div class="carousel-caption ">
+            <h1>Find Your Dream | <span> Apartment </span></h1>
+            <p>We are recognized for exceeding client expectations and delivering great results through dedication, ease
+              of process, and extraordinary services to our worldwide clients.</p>
+            <div class="button-section mb-5">
+              <a href="submit-property.html"> <button type="button" class="btn btn-success">Get Started</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <br>
+
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+
+  <main id="main">
+
+    <!-- ===================== Popular Courses Section ======================= -->
+
+    <section id="popular-courses" class="courses">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2 class="text-center">Places</h2>
+          <p class="text-center mt-3">CHOOSE YOUR PLACES</p>
+        </div>
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="course-item">
+              <img src="assets//img/a1.jpg" class="img-fluid" alt="...">
+              <div class="course-content">
+                <div class="star mb-0">
+                  <p style="font-size: 16px; font-weight: 500;">July 24, 2022</p>
+                </div>
+                <h3 class="mb-0"><a href="" style="color: rgb(85, 78, 78);font-size: 19px;">Modern apartment
+                    adjacent</a></h3>
+                <p class="mt-2" style="font-size: 16px;">Massa tempor nec feugiat nisl pretium. Egestas fringilla
+                  phasellus faucibus scelerisque eleifend donec. </p>
+                <div class="trainer d-flex justify-content-between align-items-center">
+                  <div class="trainer-profile d-flex align-items-center">
+                    <i class="fa fa-commenting" aria-hidden="true"></i>
+                    <span style="font-size: 13px; font-weight: bold;">21 Reviews </span>
+                  </div>
+                  <div class="trainer-rank d-flex align-items-center">
+                    &nbsp;<i class="fa fa-bar-chart" aria-hidden="true"></i>
+                    &nbsp; <span style="font-size: 13px; font-weight: bold;">100% Sucess Rate</span>
+                  </div>
+                </div>
+                <div class="button-section mt-2">
+                  <a href="property.html"><button type="button" class="btn btn-success"
+                      style="background-color: none !important;">Read More &rarr;</button></a>
+                </div>
+              </div>
+            </div>
+          </div> <!-- End Course Item-->
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="course-item">
+              <img src="assets//img/a2.jpg" class="img-fluid" alt="...">
+              <div class="course-content">
+                <div class="star mb-0">
+                  <p style="font-size: 16px; font-weight: 500;">July 24, 2022</p>
+                </div>
+                <h3 class="mb-0"><a href="" style="color: rgb(85, 78, 78);font-size: 19px;">We are Offering the Best
+                    RED</a></h3>
+                <p class="mt-2" style="font-size: 16px;">Massa tempor nec feugiat nisl pretium. Egestas fringilla
+                  phasellus faucibus scelerisque eleifend donec. </p>
+                <div class="trainer d-flex justify-content-between align-items-center">
+                  <div class="trainer-profile d-flex align-items-center">
+                    <i class="fa fa-commenting" aria-hidden="true"></i>
+                    <span style="font-size: 13px; font-weight: bold;">21 Reviews </span>
+                  </div>
+                  <div class="trainer-rank d-flex align-items-center">
+                    &nbsp;<i class="fa fa-bar-chart" aria-hidden="true"></i>
+                    &nbsp; <span style="font-size: 13px; font-weight: bold;">100% Sucess Rate</span>
+                  </div>
+                </div>
+                <div class="button-section mt-2">
+                  <a href="property.html"><button type="button" class="btn btn-success"
+                      style="background-color: none !important;">Read More &rarr;</button></a>
+                </div>
+              </div>
+            </div>
+          </div> <!-- End Course Item-->
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="course-item">
+              <img src="assets//img/a3.jpg" class="img-fluid" alt="...">
+              <div class="course-content">
+                <div class="star mb-0">
+                  <p style="font-size: 16px; font-weight: 500;">July 24, 2022</p>
+                </div>
+                <h3 class="mb-0"><a href="" style="color: rgb(85, 78, 78);font-size: 19px;">Architects design a
+                    Resort</a></h3>
+                <p class="mt-2" style="font-size: 16px;">Massa tempor nec feugiat nisl pretium. Egestas fringilla
+                  phasellus faucibus scelerisque eleifend donec. </p>
+                <div class="trainer d-flex justify-content-between align-items-center">
+                  <div class="trainer-profile d-flex align-items-center">
+                    <i class="fa fa-commenting" aria-hidden="true"></i>
+                    <span style="font-size: 13px; font-weight: bold;">21 Reviews </span>
+                  </div>
+                  <div class="trainer-rank d-flex align-items-center">
+                    &nbsp;<i class="fa fa-bar-chart" aria-hidden="true"></i>
+                    &nbsp; <span style="font-size: 13px; font-weight: bold;">100% Sucess Rate</span>
+                  </div>
+                </div>
+                <div class="button-section mt-2">
+                  <a href="property.html"><button type="button" class="btn btn-success"
+                      style="background-color: none !important;">Read More &rarr;</button></a>
+                </div>
+              </div>
+            </div>
+          </div> <!-- End Course Item-->
+        </div>
+      </div>
+    </section><!-- End Popular Courses Section -->
+
+    <!-- =================== Why Choose Pinewriters Section   ======================= -->
+
+    <section class="choose-section">
+      <div class="container" data-aos="fade-up">
+        <div class="main-title text-center text-white">
+          <h5>WHY CHOOSE US</h5>
+          <h2 class="mt-2">Why Choose Us?</h2>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="full p-4 text-center">
+              <div class="icon">
+                <!-- <i class="fa fa-trophy" aria-hidden="true"></i> -->
+                <img src="assets/img/icon-5.svg" width="30%" alt="">
+                <div class="award mt-3">
+                  <h4>Trusted by thousands</h4>
+                </div>
+                <div class="para mt-2">
+                  <p>We always ensure that the delivered service completely meets the customers’ requirements.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="full p-4 text-center">
+              <div class="icon">
+                <!-- <i class="fa fa-clock-o" aria-hidden="true"></i> -->
+                <img src="assets/img/icon-4.svg" width="30%" alt="">
+                <div class="award mt-3">
+                  <h4>Timely Delivery</h4>
+                </div>
+                <div class="para mt-2">
+                  <p>All papers are delivered earlier before the deadline to allow our customer some time to review
+                    their
+                    papers.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="full p-4 text-center">
+              <div class="icon">
+                <!-- <i class="fa fa-handshake-o" aria-hidden="true"></i> -->
+                <img src="assets/img/icon-6.svg" width="30%" alt="">
+                <div class="award mt-3">
+                  <h4>Outstanding Customer Service</h4>
+                </div>
+                <div class="para mt-2">
+                  <p>Our support team is available around the clock to help answer your questions regarding our
+                    services.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="full p-4 text-center">
+              <div class="icon">
+                <!-- <i class="fa fa-newspaper-o" aria-hidden="true"></i> -->
+                <img src="assets/img/icon-15.svg" width="30%" alt="">
+                <div class="award mt-3">
+                  <h4>Quality Assurance</h4>
+                </div>
+                <div class="para mt-2">
+                  <p>We ensure your order is completed to your exact requirements. We also run plagiarism scan to ensure
+                    your paper is 100% original.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Why Choose Pinewriters Section -->
+
+    <!-- =================== featured-Section   ======================= -->
+
+
+    <div class="feature_section py-5">
+      <div class="container" data-aos="fade-up">
+        <div class="title text-center">
+          <h3 class="text-center">propertyies</h3>
+          <h2>Featured propertyies</h2>
+          <p>We are recognized for exceeding client expectations and delivering great results through dedication, ease
+            <br> of process, and extraordinary services to our worldwide clients.
+          </p>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-4 col-md-6 py-3">
+            <a href="property-details.html">
+              <div class="full ">
+                <div class="listing-badges">
+                  <span class="mt-2 sale">FOR SALE</span>
+                </div>
+                <div class=" d-md-block">
+                  <div class="recent-details">
+                    <div class="recent-title">Luxury House in New York</div>
+                    <div class="price-details">
+                      <div class="recent-price mb-3">$230,000</div>
+                      <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Br <span
+                          class="mr-1">|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Ba <span
+                          class="mr-1">|</span><i class="fa fa-car mr-1" aria-hidden="true"></i> 2 Gr <span
+                          class="mr-1">|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 sq ft
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 py-3">
+            <a href="property-details.html">
+              <div class="full1 ">
+                <div class="listing-badges">
+                  <span class="mt-2">FOR RENT</span>
+                </div>
+                <!-- <img src="assets/img/a1.jpg" width="100%" alt=""> -->
+                <div class=" d-md-block">
+                  <div class="recent-details">
+                    <div class="recent-title">FOR RENT
+                      Villa House in Los Angelesk</div>
+                    <div class="price-details">
+                      <div class="recent-price mb-3">$30,000</div>
+                      <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Br <span
+                          class="mr-1">|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Ba <span
+                          class="mr-1">|</span><i class="fa fa-car mr-1" aria-hidden="true"></i> 2 Gr <span
+                          class="mr-1">|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 sq ft
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 py-3">
+            <a href="property-details.html">
+              <div class="full2 ">
+                <div class="listing-badges">
+                  <span class="mt-2 sale">FOR SALE</span>
+                </div>
+                <!-- <img src="assets/img/a1.jpg" width="100%" alt=""> -->
+                <div class=" d-md-block">
+                  <div class="recent-details">
+                    <div class="recent-title">FOR SALE
+                      Family House in San Francisco</div>
+                    <div class="price-details">
+                      <div class="recent-price mb-3">$230,00</div>
+                      <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Br <span
+                          class="mr-1">|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Ba <span
+                          class="mr-1">|</span><i class="fa fa-car mr-1" aria-hidden="true"></i> 2 Gr <span
+                          class="mr-1">|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 sq ft
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 py-3">
+            <a href="property-details.html">
+              <div class="full3 ">
+                <div class="listing-badges">
+                  <span class="mt-2">FOR RENT</span>
+                </div>
+                <!-- <img src="assets/img/a1.jpg" width="100%" alt=""> -->
+                <div class=" d-md-block">
+                  <div class="recent-details">
+                    <div class="recent-title">FOR RENT
+                      Condo House in Miami</div>
+                    <div class="price-details">
+                      <div class="recent-price mb-3">$230,000</div>
+                      <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Br <span
+                          class="mr-1">|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Ba <span
+                          class="mr-1">|</span><i class="fa fa-car mr-1" aria-hidden="true"></i> 2 Gr <span
+                          class="mr-1">|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 sq ft
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 py-3">
+            <a href="property-details.html">
+              <div class="full4 ">
+                <div class="listing-badges">
+                  <span class="mt-2 sale">FOR SALE</span>
+                </div>
+                <!-- <img src="assets/img/a1.jpg" width="100%" alt=""> -->
+                <div class=" d-md-block">
+                  <div class="recent-details">
+                    <div class="recent-title">Luxury Villa House </div>
+                    <div class="price-details">
+                      <div class="recent-price mb-3">$230,000</div>
+                      <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Br <span
+                          class="mr-1">|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Ba <span
+                          class="mr-1">|</span><i class="fa fa-car mr-1" aria-hidden="true"></i> 2 Gr <span
+                          class="mr-1">|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 sq ft
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 py-3">
+            <a href="property-details.html">
+              <div class="full5 ">
+                <div class="listing-badges">
+                  <span class="mt-2">FOR RENT</span>
+                </div>
+                <!-- <img src="assets/img/a1.jpg" width="100%" alt=""> -->
+                <div class=" d-md-block">
+                  <div class="recent-details">
+                    <div class="recent-title">Luxury House in New York</div>
+                    <div class="price-details">
+                      <div class="recent-price mb-3">$230,000</div>
+                      <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Br <span
+                          class="mr-1">|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Ba <span
+                          class="mr-1">|</span><i class="fa fa-car mr-1" aria-hidden="true"></i> 2 Gr <span
+                          class="mr-1">|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 sq ft
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="btn_sec text-center pb-3 mt-3">
+          <a href="property.html"><button type="button" class="btn btn-danger">View All <i
+                class="fa fa-arrow-circle-right" aria-hidden="true"></i></button></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- =================== agent-Section   ======================= -->
+    <div class="agent_section py-4">
+      <div class="container" data-aos="fade-up">
+        <div class="title text-center">
+          <h3 class="text-center">AGENTS</h3>
+          <h2>MEET OUR
+            AGENTS</h2>
+        </div>
+        <section>
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="team-style1 hoverstyle1 my-2">
+                <div class="team-img">
+                  <img src="assets/img/g1.jpg" width="100%" alt="">
+                </div>
+                <div class="team-social-icon">
+                  <ul>
+                    <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#!"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="#!"><i class="fab fa-linkedin-in"></i></a></li>
+                  </ul>
+                </div>
+                <div class="team-info">
+                  <a href="agent.html">
+                    <h6 class="h5">Lena Christner</h6>
+                  </a>
+                  <small>Refractory Helper</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="team-style1 hoverstyle1 my-2">
+                <div class="team-img">
+                  <img src="assets/img/g2.jpg" width="100%" alt="">
+                </div>
+                <div class="team-social-icon">
+                  <ul>
+                    <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#!"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="#!"><i class="fab fa-linkedin-in"></i></a></li>
+                  </ul>
+                </div>
+                <div class="team-info">
+                  <a href="agent.html">
+                    <h6 class="h5">Arling Tracy</h6>
+                  </a>
+                  <small>Products Arranger</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="team-style1 hoverstyle1 my-2">
+                <div class="team-img">
+                  <img src="assets/img/g3.jpg" width="100%" alt="">
+                </div>
+                <div class="team-social-icon">
+                  <ul>
+                    <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#!"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="#!"><i class="fab fa-linkedin-in"></i></a></li>
+                  </ul>
+                </div>
+                <div class="team-info">
+                  <a href="agent.html">
+                    <h6 class="h5">Mark Web</h6>
+                  </a>
+                  <small>Refractory Helper</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="team-style1 hoverstyle1 my-2">
+                <div class="team-img">
+                  <img src="assets/img/g4.jpg" width="100%" alt="">
+                </div>
+                <div class="team-social-icon">
+                  <ul>
+                    <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#!"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="#!"><i class="fab fa-linkedin-in"></i></a></li>
+                  </ul>
+                </div>
+                <div class="team-info">
+                  <a href="agent.html">
+                    <h6 class="h5">Katy Grace</h6>
+                  </a>
+                  <small>Real Estate Agent</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+
+    <!-- ===================== Counts Section =========================== -->
+    <section id="counts" class="counts section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title text-white">
+          <h2 class="text-center">Numbers</h2>
+          <p class="text-center text-white mt-3">property.html Stats</p>
+        </div>
+        <div class="row counters">
+          <div class="col-lg-3 col-6 text-center" style="border-right: 3px solid white;">
+            <i class="fa fa-home" aria-hidden="true"></i> <span data-toggle="counter-up">300</span>
+            <p>Sold Houses</p>
+          </div>
+          <div class="col-lg-3 col-6 text-center" style="border-right: 3px solid white;">
+            <i class="fa fa-list" aria-hidden="true"></i> <span data-toggle="counter-up"> 500 </span>
+            <p>Daily Listings </p>
+          </div>
+          <div class="col-lg-3 col-6 text-center" style="border-right: 3px solid white;">
+            <i class="fa fa-users" aria-hidden="true"></i> <span data-toggle="counter-up">250</span>
+            <p>Expert Agents
+            </p>
+          </div>
+          <div class="col-lg-3 col-6 text-center">
+            <i class="fa fa-trophy" aria-hidden="true"></i> <span data-toggle="counter-up">350</span>
+            <p>Won Awars</p>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Counts Section -->
+    <!-- =================== testimonials-Section   ======================= -->
+
+    <!-- ==================== news-article  ========================= -->
+    <div class="latest_section py-5">
+      <div class="container" data-aos="fade-up">
+        <div class="title text-center pb-5">
+          <h3 class="text-center">NEWS</h3>
+          <h2>Latest News</h2>
+        </div>
+        <div class="row ng-scope">
+          <div class="col-lg-6 col-12">
+            <section class="search-result-item my-3">
+              <a class="image-link" href="#"><img class="image" src="assets/img/n1.jpg" width="100%">
+              </a>
+              <div class="search-result-item-body">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h5 class="search-result-item-heading mt-2"><a href="property.html">The Real Estate News</a></h5>
+                    <p class="info">Jun 23, 2020 / By Admin</p>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor.</p>
+                    <div class="news-item-bottom">
+                      <a href="property.html" class="news-link">Read more...</a>
+                      <ul class="action-list">
+                        <li class="action-item"><i class="fa fa-heart"></i> <span>306</span></li>
+                        <li class="action-item"><i class="fa fa-comment"></i> <span>34</span></li>
+                        <li class="action-item"><i class="fa fa-share-alt"></i> <span>122</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="col-lg-6 col-12">
+            <section class="search-result-item my-3">
+              <a class="image-link" href="#"><img class="image" src="assets/img/n2.jpg" width="100%">
+              </a>
+              <div class="search-result-item-body">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h5 class="search-result-item-heading mt-2"><a href="property.html">The Real Estate News</a></h5>
+                    <p class="info">Jun 23, 2020 / By Admin</p>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor.</p>
+                    <div class="news-item-bottom">
+                      <a href="property.html" class="news-link">Read more...</a>
+                      <ul class="action-list">
+                        <li class="action-item"><i class="fa fa-heart"></i> <span>306</span></li>
+                        <li class="action-item"><i class="fa fa-comment"></i> <span>34</span></li>
+                        <li class="action-item"><i class="fa fa-share-alt"></i> <span>122</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="col-lg-6 col-12">
+            <section class="search-result-item my-3">
+              <a class="image-link" href="#"><img class="image" src="assets/img/n3.jpg" width="100%">
+              </a>
+              <div class="search-result-item-body">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h5 class="search-result-item-heading mt-2"><a href="property.html">The Real property.html
+                        Establish</a></h5>
+                    <p class="info">Jun 23, 2020 / By Admin</p>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor.</p>
+                    <div class="news-item-bottom">
+                      <a href="property.html" class="news-link">Read more...</a>
+                      <ul class="action-list">
+                        <li class="action-item"><i class="fa fa-heart"></i> <span>306</span></li>
+                        <li class="action-item"><i class="fa fa-comment"></i> <span>34</span></li>
+                        <li class="action-item"><i class="fa fa-share-alt"></i> <span>122</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="col-lg-6 col-12">
+            <section class="search-result-item my-3">
+              <a class="image-link" href="property.html"><img class="image" src="assets/img/n4.jpg" width="100%">
+              </a>
+              <div class="search-result-item-body">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h5 class="search-result-item-heading mt-2"><a href="#">The Real Estate News</a></h5>
+                    <p class="info">Jun 23, 2020 / By Admin</p>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor.</p>
+                    <div class="news-item-bottom">
+                      <a href="property.html" class="news-link">Read more...</a>
+                      <ul class="action-list">
+                        <li class="action-item"><i class="fa fa-heart"></i> <span>306</span></li>
+                        <li class="action-item"><i class="fa fa-comment"></i> <span>34</span></li>
+                        <li class="action-item"><i class="fa fa-share-alt"></i> <span>122</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-6 footer-links">
+            <h4 class="text-white">Company</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Contact us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="faq.html">FAQ</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="privacy.html">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="agent.html">Agent</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="agent-details.html">Agent Details</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="property.html">Property</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="property-details.html">Property Details</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-12 footer-links">
+            <h4>Newsletters</h4>
+            <p class="operation">Pinewriters operates within the educational standards and does not, in any way, violate
+              regulations provided forth by educational institutions. The writing and proofreading services we offer are
+              100% LEGAL and can be used.</p>
+            <form>
+              <input name='uri' type='hidden' value='ArlinaDesign' /><input name='loc' type='hidden'
+                value='en_US' /><input autocomplete='off' class='subscribe-css-email-field' name='email'
+                placeholder='Enter your Email' /><input class='subscribe-css-email-button' title='' type='submit'
+                value='Subscribe' />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container btb py-3">
+      <div class="mr-md-auto text-center">
+        <div class="copyright mt-2 " style="transform: translate(0px , -9px);">
+          &copy; Copyright 2022 <strong><span>Real Estate property.html</span></strong>. All Rights Reserved!
+        </div>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
